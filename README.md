@@ -20,7 +20,7 @@
 - [ ] It should be possible for the user to search for gyms by name;
 - [x] It should be possible for the user to check in at a gym;
 - [ ] It should be possible to validate a user's check-in;
-- [ ] It should be possible to register a gym;
+- [x] It should be possible to register a gym;
 
 ### BRs (Business Rules)
 - [x] A user should not be able to register with a duplicate email;
