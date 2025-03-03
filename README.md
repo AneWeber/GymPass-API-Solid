@@ -24,8 +24,8 @@
 
 ### BRs (Business Rules)
 - [x] A user should not be able to register with a duplicate email;
-- [ ] A user cannot perform two check-ins on the same day;
-- [ ] A user cannot check in if they are not within 100m of the gym;
+- [x] A user cannot perform two check-ins on the same day;
+- [x] A user cannot check in if they are not within 100m of the gym;
 - [ ] A check-in can only be validated up to 20 minutes after it is created;
 - [ ] A check-in can only be validated by administrators;
 - [ ] A gym can only be registered by administrators;
