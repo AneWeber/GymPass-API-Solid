@@ -14,8 +14,8 @@
 - [x] It should be possible to register;
 - [x] It should be possible to authenticate;
 - [x] It should be possible to retrieve the profile of a logged-in user;
-- [ ] It should be possible to obtain the number of check-ins made by the logged-in user;
-- [ ] It should be possible for the user to retrieve their check-in history;
+- [x] It should be possible to obtain the number of check-ins made by the logged-in user;
+- [x] It should be possible for the user to retrieve their check-in history;
 - [ ] It should be possible for the user to search for nearby gyms;
 - [ ] It should be possible for the user to search for gyms by name;
 - [x] It should be possible for the user to check in at a gym;
@@ -33,5 +33,5 @@
 ### NFRs (Non-Functional Requirements)
 - [x] The user's password must be encrypted;
 - [x] The application's data must be persisted in a PostgreSQL database;
-- [ ] All data lists must be paginated with 20 items per page;
+- [x] All data lists must be paginated with 20 items per page;
 - [ ] The user must be identified by a JWT (JSON Web Token);
