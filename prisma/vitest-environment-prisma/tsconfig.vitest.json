@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext", // Vitest funciona melhor com ESModules
+    "target": "ES2022", // Pode usar ES2022 para testes modernos
+    "outDir": "./dist-test",
+    "isolatedModules": true,
+    "strict": true
+  }
+}
