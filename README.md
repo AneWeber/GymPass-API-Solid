@@ -52,5 +52,4 @@ A backend API for a gym check-in system, allowing user registration, authenticat
 
 ### terminal 02:
 - docker-compose up --build -d (*create and execute docker*)
-- npm run test:ui (*run unit tests*)
-- npm run test:e2e (*run unit tests*)
+- npm run test:ui (*run all tests*)
