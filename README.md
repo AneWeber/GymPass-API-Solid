@@ -1,4 +1,4 @@
-# GymPass-style app.
+# 🏋️🦾 GymPass-style app. 🦾🏋️
 
 A backend API for a gym check-in system, allowing user registration, authentication, gym search, and location-based check-ins. It enforces business rules and uses PostgreSQL with JWT authentication.
 
@@ -52,4 +52,5 @@ A backend API for a gym check-in system, allowing user registration, authenticat
 
 ### terminal 02:
 - docker-compose up --build -d (*create and execute docker*)
+- npx prisma migrate dev (*execute migrations*)
 - npm run test:ui (*run all tests*)
