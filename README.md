@@ -47,10 +47,12 @@ A backend API for a gym check-in system, allowing user registration, authenticat
 
 ### terminal 01:
 - npm install (*install packages*)
+- create a .env file using the .env.example as base (*local variables*)
+- docker-compose up --build -d (*create and execute docker*)
 - npm run build (*compile project*)
+- npx prisma generate (*generate prisma client*)
+- npx prisma migrate dev (*execute migrations*)
 - npm run start (*start project*)
 
 ### terminal 02:
-- docker-compose up --build -d (*create and execute docker*)
-- npx prisma migrate dev (*execute migrations*)
 - npm run test:ui (*run all tests*)
